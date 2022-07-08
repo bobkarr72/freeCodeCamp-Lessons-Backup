@@ -1,0 +1,335 @@
+/* \/\/\/\/\/\/\/\/\/\/\/\/ */
+/* Document layout/styling */
+
+::root {
+  --html-badge: <i class="fa-brands fa-html5" id="html-badge" ></i>;
+  --css-badge: <i class="fa-brands fa-css3-alt" id="css-badge" ></i>
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #1B242D;
+  color: #5B4E4D;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin: 8rem 0 2rem 0;
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  margin-bottom: 3rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #F3777C;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/ */
+/* #NAVBAR layout/styling */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 75px;
+  font-family: 'Lora', serif;
+  background-color: #5B4E4C;
+  box-shadow: 0 1rem 1rem -1rem rgba(55, 56, 58, 0.2);
+  z-index: 10;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+nav li {
+  padding: 0px 0.8rem;
+}
+
+#card,
+#case,
+#comm {
+  color: #1B242D;
+}
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/ */
+/* #WELCOME layout/styling */
+
+#welcome-section {
+  margin: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 1000px) {
+  #welcome-section {
+    text-align: center;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.welcome-img {
+  margin-top: 8rem;
+  width: 240px;
+  height: 300px;
+}
+
+#subheading {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2rem 0;
+  color: #CD8846;
+}
+
+#subheading span {
+  color: #AB3A3A;
+}
+
+@media (max-width: 650px) {
+  #subheading {
+    font-size: 4rem;
+  }
+}
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/ */
+/* #ABOUT section layout/styling */
+
+#about {
+  padding: 5rem 5rem 5rem 5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+#about h2 {
+  text-align: center;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 850px) {
+  #about-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+#background {
+  width: 60%;
+  padding: 0 2rem;
+}
+
+#rwd {
+  color: #A6A360;
+}
+
+#interests-list {
+  background-color: #1B242D;
+  color: #5B4E4D;
+  padding: 1rem;
+  border: 2px solid #AB3A3A;
+}
+
+@media (max-width: 850px) {
+  #background {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+
+  #interests-list {
+    margin: auto;
+  }
+}
+
+#interests-list > h3 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.one,
+.two,
+.three,
+.four {
+  font-size: medium;
+  font-style: italic;
+}
+
+#li-icons {
+  color: #3696C3;
+}
+
+
+/* \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ */
+/* #PROJECTS section layout/styling */
+
+#projects {
+  padding: 10rem 5rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #5B4E4C;
+  color: #1B242D;
+}
+
+#projects > p {
+  margin-bottom: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 5rem;
+  margin: 1.5rem auto;
+}
+
+@media (max-width: 400px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+
+.card {
+  position: relative;
+  padding-bottom: 2rem;
+  border: 1px solid #1B242D;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 0 2rem -0.7rem #A6A360;
+  border: 1px solid #AB3A3A;
+}
+
+.desc {
+  padding: 2rem;
+  text-align: left;
+}
+
+.project-tile {
+  margin: 2rem 0 2rem 0;
+}
+
+.project-tile > a {
+  color: #CD8846;
+  font-weight: 200;
+}
+
+#html-badge {
+  color: #F26135;
+  font-size: larger;
+}
+
+#css-badge {
+  color: #3FB2DD;
+  font-size: larger;
+}
+
+/* #CONTACT section layout/styling */
+
+#contact {
+  margin-top: 3rem;
+  padding: 10rem 5rem;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #1B242D;
+  color: #5B4E4C;
+}
+
+#contact-icon {
+  width: 2rem;
+  padding: 1rem;
+  filter: invert(0%);
+  color: #AB3A3A;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding: 1rem;
+}
+
+
+.contact-details:hover #contact-icon {
+  filter: invert(83%) sepia(39%) saturate(6798%) hue-rotate(308deg) brightness(92%) contrast(107%);
+}
+
+.contact-details:hover {
+  color: #F2797B;
+}
+
+#hmu {
+  color: #3FB2DD;
+}
+
+/* FOOTER section layout/sytling */
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #5B4E4D;
+  color: #1B242D;
+}

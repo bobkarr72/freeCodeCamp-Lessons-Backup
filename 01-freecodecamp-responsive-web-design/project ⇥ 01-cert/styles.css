@@ -1,0 +1,100 @@
+body {
+  color: #DB916D;
+  background-color: #1A1F29;
+  font-family: 'Roboto Flex', sans-serif;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+p {
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+#survey {
+  color: #FFD173;
+  background-color: #242936;
+  margin: 0 10%;
+  padding: 15px;
+}
+
+#survey {
+  text-align: center;
+}
+
+#description {
+  font-size: 150%;
+}
+
+.row {
+  margin: 15px 0 0 0;
+  font-size: 150%;
+}
+
+.label {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+  vertical-align: top;
+  padding-right: 20px;
+}
+
+.label span {
+  color: gold;
+  padding-right: 5px;
+}
+
+.form-content {
+  display: inline-block;
+  width: 48%;
+  text-align: left;
+}
+
+textarea {
+  font-size: 70%;
+}
+
+.submit-row {
+  margin: 15px;
+}
+
+#submit {
+  font-size: 100%;
+}
+
+.container-top {
+  --offset: 100px;
+  --fade: 80px;
+
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+  justify-self: end;
+  justify-content: flex-end;
+  --webkit-mask: linear-gradient(#0000 calc(100vh + var(--offset)), #000 calc(100vh + var(--offset) + var(--fade)));
+}
+
+.top {
+  position: sticky;
+  bottom: 20px;
+  margin-right: 10px;
+
+  /* visual styling */
+  width: 100%;
+  aspect-ratio: 1;
+  background: #ff8b24;
+  border-radius: 10px;
+}
+
+.top:before {
+  content: "";
+  position: absolute;
+  inset: 30%;
+  transform: translateY(20%) rotate(-45deg);
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+}

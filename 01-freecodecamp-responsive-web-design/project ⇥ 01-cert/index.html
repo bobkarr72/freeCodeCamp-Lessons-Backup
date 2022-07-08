@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Flex:opsz,wght@8..144,100&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RWD - Project01</title>
+</head>
+
+<body>
+  <h1 id="title">FreeCodeCamp Survey Form</h1>
+  <div id="survey">
+    <p id="description">This form is an exercise required  by <a href="https://www.freecodecamp.org">FreeCodeCamp</a>'s <strong>Responsive Web UI</strong> curriculum. It is necessary to continue past the afore-mentioned curriculum block & is the springboard to other scripting languages (primarily JavaScript) as well as programming languages. As an example, this form will ask the end-user to select their favorite football team, providing various criteria to assist in the selection.</p>
+
+    <form id="survey-form">
+      <fieldset>
+      <div class="row">
+        <div class="label">
+          <label for="name" id="name-label"><span>*</span>Name:</label>
+        </div>
+        <div class="form-content">
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="label">
+          <label for="email" id="email-label"><span>*</span>Email:</label>
+        </div>
+        <div class="form-content">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+      </div>
+      <div class="row">
+        <div class="label">
+          <label for="age" id="number-label">Age:</label>
+        </div>
+        <div class="form-content">
+          <input type="number" id="number" name="age" placeholder="Age" min="14" max="125" />
+        </div>
+      </div>
+      </fieldset>
+
+      <!-- The checkboxes below will feature a handful of American football teams from which to select, a textarea for comments to support the user's selection, another textarea for any further explanation (if needed; not required), & finally, the ability to submit the information contained herein, leading to potential embarrassment -->
+
+      <fieldset>
+      <div class="row">
+        <div class="label">
+          <label for="coder">Are you a student of American football and all that it contains?</label>
+        </div>
+        <div class="form-content">
+          <input type="radio" name="coder" value="yes">Yes <br />
+          <input type="radio" name="coder" value="no">No <br />
+          <input type="radio" name="coder" value="basics">Uh, sorta.  Kinda.  <br />
+        </div>
+      </div>
+      </fieldset>
+
+        <fieldset>
+        <div class="row">
+        <div class="label">
+          <label for="length">If your previous answer was no, die!  If yes, for how long have you dealt with this problem?</label>
+        </div>
+        <div class="form-content">
+          <select id="dropdown" name="length">
+            <option value="under-two">2 years or less.  I'm a housewife who hates myself!</option>
+            <option value="two-to-four">2 to 4 years; I'm a know-it-all!</option>
+            <option value="four-to-six">4 to 6 years.  Back in my day...</option>
+            <option value="over-six">Over 6 years, God help me!</option>
+          </select>
+        </div>
+      </div>
+      </fieldset>
+
+      <fieldset>
+      <div class="row">
+        <div class="label">
+          <label for="languages">Which team(s) are your favorite?  Who do you root for?</label>
+        </div>
+        <div class="form-content">
+          <input type="checkbox" name="language1" value="saints">New Orleans Saints<br />
+          <input type="checkbox" name="language2" value="saints">New Olreans Saints<br />
+          <input type="checkbox" name="language3" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language4" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language5" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language6" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language7" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language8" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language9" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language10" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language11" value="html">New Orleans Saints<br />
+          <input type="checkbox" name="language12" value="html">Atlanta Falcons.  I'm also a big, dumb idiot!<br />
+        </div>
+      </div>
+      </fieldset>
+
+      <fieldset>
+      <div class="row">
+        <div class="label">
+          <label for="best" id="best">In as many words as needed, describe your hatred for the Atlanta Falcons.</label>
+        </div>
+        <div class="form-content">
+          <textarea rows="20" cols="60">
+            Go hog wild!!!
+          </textarea>
+        </div>
+      </div>
+      </fieldset>
+
+      <fieldset>
+      <div class="submit-row">
+        <input type="submit" value="submit" id="submit" />
+      </div>
+      </fieldset>
+    </form>
+  </div>
+  <div class="container-top">
+    <a href="#" class="top"></a>
+  </div>
+</body>
+
+</html>

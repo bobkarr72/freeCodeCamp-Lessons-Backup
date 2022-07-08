@@ -1,0 +1,16 @@
+html {
+  background-color: #242936;
+}
+
+.es6001 {
+  background-color: #1F2430;
+  border: .2px solid #5CCFE6;
+  display: flex;
+  justify-content: left;
+  color: #E9E9E9;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+#javascript {
+  color: #E5BE6D;
+}

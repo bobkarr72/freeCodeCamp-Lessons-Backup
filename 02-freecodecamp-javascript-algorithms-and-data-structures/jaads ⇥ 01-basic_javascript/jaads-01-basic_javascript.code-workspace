@@ -1,0 +1,91 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"clockify.apiKey": "YTdkYTU5N2QtOWNiYS00NDU3LWFhY2MtNzM4M2E0NjgxMmJk",
+		"clockify.tracking.autostart": false,
+		"clockify.tracking.workspaceId": "62b6747b1166fb5a93e30896",
+		"clockify.tracking.projectId": "62b6755b786604599fca850a",
+		"clockify.tracking.autostop": false,
+		"clockify.tracking.billable": true,
+		"colorTabs.activityBarBackground": true,
+		"colorTabs.titleLabel": true,
+		"colorTabs.titleBackground": true,
+		"better-comments.highlightPlainText": true,
+        "better-comments.multilineComments": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#E9E9E9",
+            "strikethrough": false,
+            "underline": true,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#F9C48C",
+            "strikethrough": false,
+            "underline": true,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": true
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "/*",
+            "color": "#15A1FB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        }
+    ],
+    "colorTabs.config": [
+    
+        {
+            "regex": ".*/web/.*"
+        },
+        {
+            "regex": ".*/mobile/.*"
+        }
+    ],
+    "appworks.enableDataAnalysisServices": false,
+    "appworks.timeLimit": 24,
+    "pomodoro.autoStart": false,
+    "pomodoro.break": 10,
+    "pomodoro.longBreak": 30,
+    "pomodoro.repeat": 8,
+    "pomodoro.work": 60,
+},
+	"extensions": {
+		"recommendations": [
+            "aaron-bond.better-comments",
+            "alefragnani.bookmarks",
+            "cosminalco.pomodoro",
+            "iceworks-team.iceworks-time-master"
+        ]
+	}
+}

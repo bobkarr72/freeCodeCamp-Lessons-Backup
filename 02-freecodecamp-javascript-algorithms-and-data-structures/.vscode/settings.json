@@ -1,0 +1,53 @@
+{
+"labeledBookmarks.colors":
+    [
+        [
+            "red",
+            "#D25A5D"
+        ],
+        [
+            "orange",
+            "#E5BE6D"
+        ],
+        [
+            "yellow",
+            "#D7BA31"
+        ],
+        [
+            "green",
+            "#D5FF80"
+        ],
+        [
+            "blue",
+            "#2196F3"
+        ],
+        [
+            "teal",
+            "#5CCFE6"
+        ],
+        [
+            "magenta",
+            "#E19494"
+        ]
+    ],
+    "labeledBookmarks.defaultShape": "label",
+    "labeledBookmarks.unicodeMarkers": [
+    
+      [
+        "look",
+        "👀"
+      ],
+      [
+        "bug",
+        "🐞"
+      ],
+      [
+        "asterix",
+        "✱"
+      ],
+      [
+        "diamond",
+        "◈"
+      ]
+    ]
+}
