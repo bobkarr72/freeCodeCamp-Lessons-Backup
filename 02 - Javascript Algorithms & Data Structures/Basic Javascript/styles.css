@@ -1,0 +1,97 @@
+body {
+  background-color: #707A8C;
+  color: #171B24;
+}
+
+#fcc-logo {
+  color: #80BFFF;
+  font-size: 4.0rem;
+  padding-right: 4px;
+}
+
+#js-logo {
+  color: #FFD173;
+  font-size: 4.0rem;
+  padding-left: 4px;
+}
+
+h3, h4 {
+  font-style: italic;
+}
+
+hr {
+  border: 1px solid #FFAF68;
+}
+
+.item1 {
+  font-family: 'Archivo', sans-serif;
+  grid-area: header;
+}
+
+.item2 {
+  font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.0rem;
+  grid-area: main;
+  line-height: 19px;
+}
+
+.item3 {
+  font-family: 'Archivo', sans-serif;
+  grid-area: footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  gap: 5px;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: justify;
+  padding: 10px 10px;
+}
+
+.js {
+  color: #FFD173;
+}
+
+.highlight {
+  color: #D5FF80;
+  font-size: .85rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-style: italic;
+}
+
+code {
+  font-family: 'Source Code Pro', monospace;
+  font-size: .85rem;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.show {
+  font-family: 'Source Code Pro', monospace;
+  font-size: .85rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #2E3138;
+  color: #D17E65;
+}
+
+.task {
+  color: #D5FF80;
+  font-size: .75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: disc;
+}

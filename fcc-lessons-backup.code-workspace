@@ -53,6 +53,13 @@
 				"diamond",
 				"◈"
 			]
+		],
+		"liveServer.settings.CustomBrowser": "chrome",
+		"liveServer.settings.fullReload": true
+	},
+	"extensions": {
+		"recommendations": [
+			"bierner.github-markdown-preview"
 		]
 	}
 }
