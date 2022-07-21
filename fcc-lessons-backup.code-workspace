@@ -55,7 +55,10 @@
 			]
 		],
 		"liveServer.settings.CustomBrowser": "chrome",
-		"liveServer.settings.fullReload": true
+		"liveServer.settings.fullReload": true,
+		"workbench.colorCustomizations": {
+			"tree.indentGuidesStroke": "#D5FF80"
+		}
 	},
 	"extensions": {
 		"recommendations": [
